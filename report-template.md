@@ -53,22 +53,22 @@ Given more time to work with this dataset, I would like to investigate additiona
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|1.84484|
-|add_features|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|0.44798|
-|hpo|Tree-Based Models: (GBM, XT, XGB & RF)|KNN|"presets: 'optimize_for_deployment"	|0.49440
+|initial|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|1.79159|
+|add_features|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|0.44670|
+|hpo|Tree-Based Models: (GBM, XT, XGB & RF)|KNN|"presets: 'optimize_for_deployment"	|0.49946
 |
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
-cd0385-project-starter/project/(img/model_train_score.png)
+cd0385-project-starter/project/img/model_train_score.png
 https://d-8nmj8us7xgon.studio.us-east-1.sagemaker.aws/jupyter/default/files/cd0385-project-starter/project/img/model_train_score.png?_xsrf=2%7C58204719%7C38383ed70540936d4285c603e10ec323%7C1686462336
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
-cd0385-project-starter/project(/img/model_test_score.png)
+cd0385-project-starter/project/img/model_test_score.png
 https://d-8nmj8us7xgon.studio.us-east-1.sagemaker.aws/jupyter/default/files/cd0385-project-starter/project/img/model_test_score.png?_xsrf=2%7C58204719%7C38383ed70540936d4285c603e10ec323%7C1686462336
 
 
@@ -77,8 +77,7 @@ https://d-8nmj8us7xgon.studio.us-east-1.sagemaker.aws/jupyter/default/files/cd03
 ## Summary
 
 
-TODO:
-Add your explanationThe AutoGluon AutoML framework for Tabular Data was thoroughly studied and incorporated into this bike sharing demand prediction project.
+The AutoGluon AutoML framework for Tabular Data was thoroughly studied and incorporated into this bike sharing demand prediction project.
 The AutoGluon framework's capabilities were fully utilized to make automated stack ensembled as well as individually distinct configured regression models trained on tabular data. It assisted in quickly prototyping a base-line model.
 The top-ranked AutoGluon-based model improved results significantly by utilizing data obtained after extensive exploratory data analysis (EDA) and feature engineering without hyperparameter optimization.
 Leveraging automatic hyperparameter tuning, model selection/ensembling and architecture search allowed AutGluon to explore and exploit the best possible options.
